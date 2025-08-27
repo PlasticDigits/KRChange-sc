@@ -11,9 +11,8 @@ contract DeployDex is Script {
     KRChangeRouter public krChangeRouter;
     AmmZapV1 public ammZapV1;
 
+    //0x654A3287c317D4Fc6e8482FeF523Dc4572b563AA //97 (KASPLEX TESTNET)
     address WETH = address(0x0);
-    //0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c //56 (BNB MAINNET)
-    //0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd //97 (BNB TESTNET)
     address OWNER = address(0x0);
 
     function setUp() public {}
