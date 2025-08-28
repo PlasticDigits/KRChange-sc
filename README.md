@@ -6,21 +6,19 @@ Settable fee v2 dex for Kasplex
 
 ### Kasplex Testnet
 
-| Contract   | Address |
-| ---------- | ------- |
-| Factory    |         |
-| Router     |         |
-| FarmMaster |         |
-| AmmZapV1   |         |
+| Contract | Address |
+| -------- | ------- |
+| Factory  |         |
+| Router   |         |
+| AmmZapV1 |         |
 
 ### Kasplex Mainnet
 
-| Contract   | Address |
-| ---------- | ------- |
-| Factory    |         |
-| Router     |         |
-| FarmMaster |         |
-| AmmZapV1   |         |
+| Contract | Address |
+| -------- | ------- |
+| Factory  |         |
+| Router   |         |
+| AmmZapV1 |         |
 
 ## build
 

@@ -11,21 +11,7 @@ import {IAmmFactory} from "src/interfaces/IAmmFactory.sol";
 import {IWETH} from "src/interfaces/IWETH.sol";
 import {WETH} from "src/amm/lib/WETH.sol";
 import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import {MockERC20 as BaseMockERC20} from "lib/forge-std/src/mocks/MockERC20.sol";
-
-contract MintableMockERC20 is BaseMockERC20 {
-    function mint(address to, uint256 amount) external {
-        _mint(to, amount);
-    }
-
-    function init(
-        string memory name_,
-        string memory symbol_,
-        uint8 decimals_
-    ) external {
-        initialize(name_, symbol_, decimals_);
-    }
-}
+import {MintableMockERC20} from "test/mocks/MintableMockERC20.sol";
 
 contract RouterSwapFeesTest is Test {
     AmmFactory public factory;
