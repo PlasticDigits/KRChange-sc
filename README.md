@@ -28,4 +28,4 @@ forge build --via-ir
 
 Key variables are set in the script, and should be updated correctly for the network.
 
-forge script script/v2/FactoryPlusRouter.s.sol:FactoryPlusRouter --broadcast --verify -vvv --rpc-url $RPC_URL --verifier blockscout --verifier-url 'https://explorer.testnet.kasplextest.xyz/api/' -i 1 --sender $DEPLOYER_ADDRESS
+forge script script/v2/DeployDex.s.sol:DeployDex --broadcast --verify -vvv --rpc-url $RPC_URL --verifier blockscout --verifier-url 'https://explorer.testnet.kasplextest.xyz/api/' -i 1 --sender $DEPLOYER_ADDRESS
