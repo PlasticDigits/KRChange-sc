@@ -7,8 +7,8 @@ import "../interfaces/IAmmERC20.sol";
 contract AmmERC20 is IAmmERC20 {
     using SafeMath for uint256;
 
-    string public constant name = "TidalDex.com LPs";
-    string public constant symbol = "Tidal-LP";
+    string public constant name = "KRChange LPs";
+    string public constant symbol = "KRC-LP";
     uint8 public constant decimals = 18;
     uint256 public totalSupply;
     mapping(address => uint256) public balanceOf;
